@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+      <LinearLayout
+        android:id="@+id/view_log_ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="450dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+       <TextView
+            android:id="@+id/view_log_tv_devid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="设备编号:"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/view_log_et_devid"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_black_frame"
+            android:textSize="20sp" />
+       </LinearLayout>
+      <LinearLayout
+        android:id="@+id/view_log_ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_log_ll1"
+        android:layout_alignLeft="@+id/view_log_ll1"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+       <TextView
+            android:id="@+id/view_log_tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="设备状态:离线"
+            android:textSize="20sp" />
+
+       </LinearLayout>
+       <LinearLayout
+        android:id="@+id/view_log_ll3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_log_ll2"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@+id/view_log_ll2"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+       <TextView
+            android:id="@+id/view_log_tv_cmd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="发送命令:"
+            android:textSize="20sp" />
+       <Spinner  
+	        android:id="@+id/view_log_sp_cmd"  
+	        android:layout_marginLeft="10dp"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"  
+	        android:entries="@array/operation"/>  
+  
+
+       </LinearLayout>
+
+</RelativeLayout>

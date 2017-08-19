@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/view_ll_device" >
+
+    <LinearLayout
+        android:id="@+id/view_ll_device_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/view_tv_device_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="设备一"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_ll_device_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_ll_device_title"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/view_tv_device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_device_frame_offline"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_ll_device_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_ll_device_info"
+        android:orientation="horizontal" >
+        
+        
+			    <LinearLayout
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:id="@+id/view_ll_device_btn_close"
+				    android:orientation="vertical"  >
+			         <ImageView
+			             android:id="@+id/view_btn_close"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:background="@drawable/shape_device_btn_close" />
+			         <TextView
+				         android:id="@+id/view_tv_close"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:text="关闭"
+					     android:textSize="8sp"
+					     android:gravity="center"
+					     android:textColor="#000000" />
+			        </LinearLayout> 
+			        
+			    
+		            <LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/view_ll_device_btn_open"
+			    android:orientation="vertical"  >
+		         <ImageView
+		             android:id="@+id/view_btn_open"
+		             android:layout_width="wrap_content"
+		             android:layout_height="wrap_content"
+		             android:background="@drawable/shape_device_btn_open" />
+		            <TextView
+			         android:id="@+id/view_tv_open"
+				     android:layout_width="wrap_content"
+				     android:layout_height="wrap_content"
+				     android:text="打开"
+				     android:textSize="8sp"
+				     android:gravity="center"
+				     android:textColor="#000000" />
+		       </LinearLayout>
+		       
+		            
+			<LinearLayout
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					  android:id="@+id/view_ll_device_btn_timer"
+					 android:orientation="vertical"  >
+			      <ImageView
+			          android:id="@+id/view_btn_timer"
+			          android:layout_width="wrap_content"
+			          android:layout_height="wrap_content"
+			          android:background="@drawable/shape_device_btn_timer" />
+			      	      
+				      <TextView
+				      android:id="@+id/view_tv_timer"
+				   android:layout_width="wrap_content"
+				   android:layout_height="wrap_content"
+				   android:layout_gravity="center_vertical"
+				   android:text="定时"
+				   android:textSize="8sp"
+				   android:gravity="center"
+				   android:textColor="#000000" />
+			</LinearLayout>
+          
+     </LinearLayout>
+
+
+
+</RelativeLayout>

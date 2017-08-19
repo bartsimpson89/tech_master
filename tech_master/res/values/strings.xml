@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_main">仪迈科技</string>
+    <string name="app_login">登录</string>
+
+    
+    <string name="app_power_manage">电源管理</string>
+    <string name="app_timer_control">定时控制</string>
+    <string name="app_alarm_state">报警状态</string>
+    <string name="app_IO_control">I/O控制</string>
+    <string name="app_device_manage">设备管理</string>
+    <string name="app_channel_manage">通道管理</string>
+    <string name="app_view_log">查看日志</string>
+    <string name="app_mainfunc_login">功能入口</string>
+    
+    
+    
+    <string name="btn_txt_device_on_off">设备开关</string>
+    <string name="btn_txt_timer_control">定时控制</string>   
+    <string name="btn_txt_alarm_state">报警状态</string>    
+    <string name="btn_txt_IO_control">I/O控制</string>  
+    <string name="btn_txt_device_manage">设备管理</string>  
+    <string name="btn_txt_channel_manage">通道管理</string>  
+    <string name="btn_txt_view_log">查看日志</string>
+    
+    
+    <string name="btn_txt_image_device">设备</string>
+    <string name="tv_channel">通道</string>
+    
+    
+    
+    <string name="btn_txt_add_device">添加设备</string>  
+    <string name="btn_txt_delete_device">删除设备</string>  
+     <string name="btn_txt_modify_device_id">修改编号</string>  
+    <string name="btn_txt_modify_device">修改设备</string>
+     <string name="btn_txt_save_device">保存信息</string>
+    
+     <string name="tv_input_channel">输入通道</string>
+     <string name="tv_set_device_id">设备编号</string>
+     <string name="tv_output_channel">输出通道</string>
+     
+    <string name="login_label_username">帐号</string>
+    <string name="login_label_password">密码</string>
+    <string name="login_label_signin">登 录</string>
+    <string name="login_status_logging_in">登录中...</string>
+    <string name="login_username_hint">Email或手机号</string>
+    <string name="login_register_link">没有帐号？ <a href="#">注册</a></string>
+    <string name="version">V1.0.0</string>
+    <string name="str_signin_tips"></string>
+   
+    
+</resources>

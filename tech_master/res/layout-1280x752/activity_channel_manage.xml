@@ -1,0 +1,429 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/channel_manage_ll_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/channel_manage_ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/shape_bottom_blue"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/power_manage_tv_1"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:ems="1"
+                android:text="电源管理"
+                android:textSize="30sp" />
+            
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/power_manage_iv_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/channel_manage_tag_1" />
+	        
+        <LinearLayout
+            android:id="@+id/channel_manage_ll_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/shape_bottom_blue"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/channel_manage_2_1"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:ems="1"
+                android:text="设备编号"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/channel_manage_2_2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="25sp" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        
+          <ImageView
+            android:id="@+id/power_manage_iv_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/channel_manage_tag_2" />
+        
+        
+        
+        <LinearLayout
+            android:id="@+id/channel_manage_ll_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/power_manage_3_1"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:ems="1"
+                android:text="输入通道"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/power_manage_3_2"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:ems="1"
+                android:text="输出通道"
+                android:textSize="25sp" />
+        </LinearLayout>
+        <LinearLayout
+	            android:id="@+id/channel_manage_ll_8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:orientation="vertical">
+			        <ImageView
+			            android:id="@+id/power_manage_iv_8_1"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="40dp"
+			            android:src="@drawable/channel_manage_tag_3" />
+			        <ImageView
+			            android:id="@+id/power_manage_iv_8_2"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="110dp"
+			            android:src="@drawable/channel_manage_tag_3" />
+		 </LinearLayout> 
+        <LinearLayout
+            android:id="@+id/channel_manage_ll_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/channel_manage_btn_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:text="添加"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/channel_manage_btn_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:text="删除"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/channel_manage_btn_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:text="添加"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/channel_manage_btn_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:text="删除"
+                android:textSize="20sp" />
+        </LinearLayout>
+       
+         
+        
+        <LinearLayout
+            android:id="@+id/channel_manage_ll_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/channel_manage_ll_5_1"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:background="@drawable/shape_bottom_purple"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+                  <Button
+                android:id="@+id/channel_manage_btn_in_1"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                 <Button
+                android:id="@+id/channel_manage_btn_in_2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_in_1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                <Button
+                android:id="@+id/channel_manage_btn_in_3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_in_2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                
+                <Button
+                android:id="@+id/channel_manage_btn_in_4"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_in_3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                
+                 <Button
+                android:id="@+id/channel_manage_btn_in_5"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_in_4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                
+                  <Button
+                android:id="@+id/channel_manage_btn_in_6"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_in_1"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_in_1"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                 
+                   <Button
+                android:id="@+id/channel_manage_btn_in_7"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_in_2"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_in_2"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                  <Button
+                android:id="@+id/channel_manage_btn_in_8"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_in_3"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_in_3"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                   <Button
+                android:id="@+id/channel_manage_btn_in_9"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_in_4"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_in_4"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                   <Button
+                android:id="@+id/channel_manage_btn_in_10"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_in_5"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_in_5"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/channel_manage_ll_5_2"
+                android:layout_width="400dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/shape_bottom_purple"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+                   
+                   <Button
+                android:id="@+id/channel_manage_btn_out_1"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                 <Button
+                android:id="@+id/channel_manage_btn_out_2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_out_1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                <Button
+                android:id="@+id/channel_manage_btn_out_3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_out_2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                
+                <Button
+                android:id="@+id/channel_manage_btn_out_4"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_out_3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                
+                 <Button
+                android:id="@+id/channel_manage_btn_out_5"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/channel_manage_btn_out_4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                
+                  <Button
+                android:id="@+id/channel_manage_btn_out_6"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_out_1"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_out_1"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                 
+                   <Button
+                android:id="@+id/channel_manage_btn_out_7"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_out_2"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_out_2"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                  <Button
+                android:id="@+id/channel_manage_btn_out_8"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_out_3"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_out_3"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                   <Button
+                android:id="@+id/channel_manage_btn_out_9"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_out_4"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_out_4"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                   <Button
+                android:id="@+id/channel_manage_btn_out_10"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/channel_manage_btn_out_5"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@+id/channel_manage_btn_out_5"
+                android:background="@drawable/shape_white_frame"
+                android:textSize="20sp" />
+                
+                
+                
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+	            android:id="@+id/channel_manage_ll_9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:orientation="vertical">
+			        <ImageView
+			            android:id="@+id/power_manage_iv_9_1"
+			            android:layout_marginTop="100dp"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:src="@drawable/channel_manage_tag_4" />
+		 </LinearLayout> 
+        <LinearLayout
+            android:id="@+id/channel_manage_ll_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/channel_manage_btn_7_1"
+                android:layout_width="50dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/shape_bottom_blue"
+                android:ems="1"
+                android:text="保存"
+                android:textSize="20sp" />
+        </LinearLayout>
+        
+         
+        
+        
+    </LinearLayout>
+    
+</RelativeLayout>

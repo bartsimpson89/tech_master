@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout 
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="#DEDCD2" android:stretchColumns="*" android:id="@+id/alarm_state_tl">
+
+
+<TableRow android:background="#DEDCD2">
+
+	<TextView 
+	    android:layout_height="wrap_content"
+	     android:layout_width="wrap_content" 
+	     android:textStyle="bold" 
+	     android:textSize="20sp"
+	      android:text="设备编号"
+	      />
+
+	<TextView
+	     android:layout_height="wrap_content" 
+	     android:layout_width="wrap_content" 
+	     android:textStyle="bold"
+	      android:textSize="20sp" 
+	      android:text="报警1" 
+	      android:layout_marginLeft="35dp"
+	      />
+
+	<TextView 
+	    android:layout_height="wrap_content"
+	     android:layout_width="wrap_content" 
+	     android:textStyle="bold"
+	      android:textSize="20sp"
+	       android:text="报警2"
+	        android:layout_marginLeft="15dp"/>
+
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:textStyle="bold" 
+	    android:textSize="20sp"
+	     android:text="报警3"
+	      android:layout_marginLeft="10dp"/>
+
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	     android:textStyle="bold" 
+	     android:textSize="20sp" 
+	     android:text="报警总数" 
+	     android:layout_marginLeft="15dp"/>
+
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:textStyle="bold"
+	     android:textSize="20sp" 
+	     android:text="清除报警"/>
+
+</TableRow>
+
+</TableLayout>
+
+
+<ScrollView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_below="@+id/alarm_state_tl"
+    >
+
+<TableLayout 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:background="#DEDCD2" 
+    android:stretchColumns="*" 
+    android:id="@+id/alarm_state_t2"> 
+    </TableLayout>
+
+</ScrollView>
+
+</RelativeLayout>

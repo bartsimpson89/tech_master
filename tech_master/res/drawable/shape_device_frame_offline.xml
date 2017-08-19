@@ -1,0 +1,32 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+     <!-- 圆角 -->
+    <corners
+        android:radius="9dp"
+        android:topLeftRadius="2dp"
+        android:topRightRadius="2dp"
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="2dp"/><!-- 设置圆角半径 -->
+    <!-- 间隔 -->
+    <padding
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp"/><!-- 各方向的间隔 -->
+    
+    <!-- 大小 -->
+    <size
+        android:width="80dp"
+        android:height="50dp"/><!-- 宽度和高度 -->
+    
+    <!-- 填充 -->
+    <solid
+        android:color="@color/grey"/><!-- 填充的颜色 -->
+    
+    <!-- 描边 -->
+    <stroke
+        android:width="10dp"
+        android:color="@color/black"/>
+
+</shape>

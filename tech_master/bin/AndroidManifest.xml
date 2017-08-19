@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tech_master"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_main"
+        android:theme="@style/AppTheme"
+        android:name = ".ApplicationVar" >
+        <activity
+            android:name=".MainEntry"
+            android:screenOrientation="landscape"
+            android:label="@string/app_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="Login"
+            android:screenOrientation="landscape"
+            android:label="@string/app_login" >
+       </activity>
+       <activity
+            android:name="PowerManage"
+            android:screenOrientation="landscape"
+            android:label="@string/app_power_manage" >
+       </activity>
+       <activity
+            android:name="TimerControl"
+            android:screenOrientation="landscape"
+            android:label="@string/app_timer_control" >
+       </activity>
+       <activity 
+            android:name="AlarmState"
+            android:screenOrientation="landscape"
+            android:label="@string/app_alarm_state" >
+       </activity>
+       <activity
+            android:name="IOControl"
+            android:screenOrientation="landscape"
+            android:label="@string/app_IO_control" >
+       </activity>
+       <activity
+            android:name="DeviceManage"
+            android:screenOrientation="landscape"
+            android:label="@string/app_device_manage" >
+       </activity>
+        <activity
+            android:name="ChannelManage"
+            android:screenOrientation="landscape"
+            android:label="@string/app_channel_manage" >
+       </activity>
+        <activity
+            android:name="ViewLog"
+            android:screenOrientation="landscape"
+            android:label="@string/app_view_log" >
+       </activity>
+        <activity
+            android:name="MainFuncLogin"
+            android:screenOrientation="landscape"
+            android:label="@string/app_mainfunc_login" >
+       </activity>
+        
+    </application>
+
+</manifest>

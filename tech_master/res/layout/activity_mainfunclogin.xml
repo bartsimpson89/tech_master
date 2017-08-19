@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/mainfunc_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="欢迎使用智能设备管理系统"
+        android:textSize="28sp" />
+
+    <LinearLayout
+         android:id="@+id/mainfunc_ll_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mainfunc_tv_title"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/mainfunc_btn_powermanage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/button"
+            android:text="电 源\n管 理"
+            android:textSize="28sp" />
+        <Button
+            android:id="@+id/mainfunc_btn_alarmstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="20dp"
+            android:background="@drawable/button"
+            android:text="报 警\n状 态"
+            android:textSize="28sp" />
+        <Button
+            android:id="@+id/mainfunc_btn_iocontrol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="20dp"
+            android:background="@drawable/button"
+            android:text="主 机\n控 制"
+            android:textSize="28sp" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mainfunc_ll_1"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/mainfunc_btn_devicemanage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/button"
+            android:text="设 备\n管 理"
+            android:textSize="28sp" />
+        <Button
+            android:id="@+id/mainfunc_btn_channelmanage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="20dp"
+            android:background="@drawable/button"
+            android:text="通 道\n管 理"
+            android:textSize="28sp" />
+        <Button
+            android:id="@+id/mainfunc_btn_checklog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="20dp"
+            android:background="@drawable/button"
+            android:text="查 看\n日 志"
+            android:textSize="28sp" />
+        
+    </LinearLayout>
+
+</RelativeLayout>
